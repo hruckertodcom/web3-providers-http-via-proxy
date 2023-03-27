@@ -1,6 +1,6 @@
 # web3-providers-http-via-proxy
 HOW TO USE:
-
+```
 const Web3 = require('web3');
 const Provider = require('./web3-providers-http-via-proxy');
 
@@ -13,3 +13,4 @@ web3.eth.getTransactionCount('0xc........................', (err, txCount) => {
         console.log('getTransactionCount: ' + txCount);
     }
 });
+```
